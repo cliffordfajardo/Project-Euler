@@ -9,7 +9,7 @@ Natural #:  A positive integer (whole #)
 Multiple:  A # that can be divided by another # with no remainder. Ex: 4, 6 & 12 are multiples of 2   */
 
 
-function multiple3or5_to(num) { // explain reason for naming
+function multiple3or5_to(num) {
     var total = 0;
     while (num--) {
         if (num % 3 === 0 || num % 5 === 0) {
